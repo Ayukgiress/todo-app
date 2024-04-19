@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #020226;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+text-align: center;
+justify-content: center;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+input {
+    width: 26vw;
+    height: 5vh;
+    padding: 3px;
+    border-radius: 8px;
+    background-color: black;
+    outline: none;
+    color: #fff;
+    border: 1px solid navy;
+}
+
+button {
+    width: 7vw;
+    height: 7vh;
+    padding: 3px;
+   outline: none;
+}
+
+.btn {
+    background-color: navy;
+    outline: none;
+}
+
+.taskes {
+    margin: 10px 0;
+    /* background-color: black; */
+    align-items: center;
+    justify-content: center;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.span-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.span-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.main {
+    background-color: #020226;
+}
+
+.check {
+    height: 3vh;
+    width: 1vw;
+    border-radius: 50%;
+    font-size: 7px;
+    background-color: transparent;
+    border: 2px solid rgb(27, 27, 219);
+    margin: 0 4px;
+}
+
+.radios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    gap: 4px;
+    height: 6vh;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.del {
+    font-size: 8px;
+    height: 3vh;
+    width: 3vw;
+    border: 2px solid darkblue;
+    background-color: transparent;
+}
